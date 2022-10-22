@@ -2,6 +2,11 @@
     height: 70px;
     width: 100%;
     padding: 0 40px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 10000;
+
 
     .home-header-content {
         width: 100%;
