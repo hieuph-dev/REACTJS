@@ -33,6 +33,10 @@
     }
 }
 
+.slick-disabled {
+    display: none !important;
+}
+
 
 // ----------------------------------------------------------------
 
@@ -71,7 +75,7 @@
                 }
 
                 &.section-outstanding-doctor {
-                    background-image: url('../../assets/outstanding_doctor/anh-dai-dien-bs.jpg');
+                    // background-image: url('../../assets/outstanding_doctor/anh-dai-dien-bs.jpg');
                     width: 120px;
                     height: 120px;
                     border-radius: 50%;
