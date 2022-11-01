@@ -190,14 +190,12 @@ class UserRedux extends Component {
             phoneNumber: user.phoneNumber,
             address: user.address,
             gender: user.gender,
-            role: user.role,
-            position: user.position,
+            role: user.roleId,
+            position: user.positionId,
             avatar: '',
             previewImgURL: imageBase64,
             action: CRUD_ACTIONS.EDIT,
             userEditId: user.id
-        }, () => {
-            console.log('check base64: ', this.state)
         })
     }
 

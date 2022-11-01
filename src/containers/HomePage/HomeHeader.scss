@@ -2,10 +2,11 @@
     height: 70px;
     width: 100%;
     padding: 0 40px;
-    position: fixed;
+    // position: fixed;
     top: 0;
     background-color: #fff;
     z-index: 10000;
+    display: block;
 
 
     .home-header-content {
@@ -107,6 +108,7 @@
     background-position: center;
     display: flex;
     flex-direction: column;
+    // margin-top: 70px; //fix lai
 
     .content-up {
         background-image: linear-gradient(rgba(126, 126, 126, 0.25), rgba(255, 255, 255, 0.1));
