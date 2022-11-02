@@ -25,7 +25,7 @@
     },
     "menu": {
         "admin": {
-            "user-manage": "Users System",
+            "manage-user": "Users System",
             "manage-doctor": "Manage doctors",
             "manage-admin": "Manage admin",
             "crud": "CRUD user",
@@ -36,6 +36,9 @@
             "manage-specialty": "Manage specialties",
             "handbook": "Handbook",
             "manage-handbook": "Manage handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's schedule"
         }
     },
     "manage-user": {
