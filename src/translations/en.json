@@ -59,5 +59,11 @@
     "homepage": {
         "outstanding-doctor": "Last week's featured doctor",
         "more-infor": "More info"
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save": "Save info"
     }
 }
