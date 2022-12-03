@@ -37,7 +37,8 @@
             "manage-handbook": "Quản lí cẩm nang"
         },
         "doctor": {
-            "manage-schedule": "Quản lí kế hoạch khám bệnh"
+            "manage-schedule": "Quản lí kế hoạch khám bệnh",
+            "manage-patient": "Quản lí bệnh nhân khám bệnh"
         }
     },
     "manage-user": {
@@ -57,7 +58,8 @@
     },
     "homepage": {
         "outstanding-doctor": "Bác sĩ nổi bật tuần qua",
-        "more-infor": "Xem thêm"
+        "more-infor": "Xem thêm",
+        "specialty-popular": "Chuyên khoa phổ biến"
     },
     "manage-schedule": {
         "title": "Quản lí kế hoạch khám bệnh của bác sĩ",
@@ -107,7 +109,9 @@
             "province": "Tỉnh thành",
             "nameClinic": "Tên phòng khám",
             "addressClinic": "Địa chỉ phòng khám",
-            "note": "Ghi chú"
+            "note": "Ghi chú",
+            "specialty": "Chọn chuyên khoa",
+            "select-clinic": "Chọn phòng khám"
         }
     }
 }

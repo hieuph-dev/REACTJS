@@ -134,7 +134,8 @@ class BookingModal extends Component {
             email: this.state.email,
             address: this.state.address,
             reason: this.state.reason,
-            date: date,
+            date: this.props.dataTime.date,
+            birthday: date,
             selectedGender: this.state.selectedGender.value,
             doctorId: this.state.doctorId,
             timeType: this.state.timeType,
@@ -185,6 +186,8 @@ class BookingModal extends Component {
                                 doctorId = {doctorId}
                                 isShowDescription = {false}
                                 dataTime = {dataTime}
+                                isShowLinkDetail = {false}
+                                isShowPrice = {true}
                             />
                         </div>
                         
@@ -213,8 +216,8 @@ class BookingModal extends Component {
                             <div className="col-6 form-group">
                                 <label><FormattedMessage id="patient.booking-modal.address"/></label>
                                 <input className="form-control"
-                                    value={this.state.fullName}
-                                    onChange={(event) => this.handleOnchangeInput(event, 'fullName')}
+                                    value={this.state.address}
+                                    onChange={(event) => this.handleOnchangeInput(event, 'address')}
                                 />
                             </div>
                             <div className="col-12 form-group">
